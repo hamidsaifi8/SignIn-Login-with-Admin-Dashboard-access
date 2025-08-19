@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": 101,
+      "name": "Hamid Saifi",
+      "username": "hamid_s",
+      "profilePic": "https://randomuser.me/api/portraits/men/75.jpg",
+      "followers": 1450,
+      "following": 320,
+      "posts": 210
+    },
+    {
+      "id": 102,
+      "name": "Priya Sharma",
+      "username": "priya_s",
+      "profilePic": "https://randomuser.me/api/portraits/women/65.jpg",
+      "followers": 2240,
+      "following": 410,
+      "posts": 300
+    },
+    {
+      "id": 103,
+      "name": "Ravi Kumar",
+      "username": "ravi_k",
+      "profilePic": "https://randomuser.me/api/portraits/men/22.jpg",
+      "followers": 980,
+      "following": 150,
+      "posts": 125
+    }
+  ],
+  "stats": {
+    "101": {
+      "today": { "likes": 250, "comments": 45, "shares": 30, "newFollowers": 22, "messages": 15 },
+      "weekly": { "likes": 1650, "comments": 330, "shares": 120, "newFollowers": 150, "messages": 100 },
+      "monthly": { "likes": 6450, "comments": 1220, "shares": 540, "newFollowers": 650, "messages": 410 }
+    },
+    "102": {
+      "today": { "likes": 420, "comments": 60, "shares": 55, "newFollowers": 35, "messages": 20 },
+      "weekly": { "likes": 2880, "comments": 420, "shares": 310, "newFollowers": 250, "messages": 160 },
+      "monthly": { "likes": 10560, "comments": 1800, "shares": 1250, "newFollowers": 900, "messages": 620 }
+    },
+    "103": {
+      "today": { "likes": 110, "comments": 20, "shares": 10, "newFollowers": 12, "messages": 5 },
+      "weekly": { "likes": 700, "comments": 120, "shares": 60, "newFollowers": 80, "messages": 35 },
+      "monthly": { "likes": 2700, "comments": 460, "shares": 200, "newFollowers": 320, "messages": 140 }
+    }
+  },
+  "posts": [
+    {
+      "id": 1,
+      "userId": 101,
+      "content": "Just launched my new project! 🚀 #React #TailwindCSS",
+      "image": "https://source.unsplash.com/400x300/?technology",
+      "likes": 120,
+      "comments": 18,
+      "shares": 6,
+      "postedAt": "2025-08-15T09:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 101,
+      "content": "Exploring Vite + React ⚡ Super fast builds!",
+      "image": "https://source.unsplash.com/400x300/?programming",
+      "likes": 90,
+      "comments": 10,
+      "shares": 4,
+      "postedAt": "2025-08-14T14:15:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 102,
+      "content": "Morning vibes 🌸 #Photography",
+      "image": "https://source.unsplash.com/400x300/?nature",
+      "likes": 300,
+      "comments": 50,
+      "shares": 20,
+      "postedAt": "2025-08-14T07:00:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 103,
+      "content": "Working on a new MERN project 💻🔥",
+      "image": "https://source.unsplash.com/400x300/?coding",
+      "likes": 160,
+      "comments": 25,
+      "shares": 8,
+      "postedAt": "2025-08-12T20:10:00Z"
+    },
+    {
+      "id": 5,
+      "userId": 102,
+      "content": "Weekend trip 🏞️ #Travel",
+      "image": "https://source.unsplash.com/400x300/?travel",
+      "likes": 500,
+      "comments": 85,
+      "shares": 42,
+      "postedAt": "2025-08-10T11:45:00Z"
+    },
+    {
+      "id": 6,
+      "userId": 101,
+      "content": "New blog post: Tips for mastering JavaScript 🔥",
+      "image": "https://source.unsplash.com/400x300/?javascript",
+      "likes": 220,
+      "comments": 40,
+      "shares": 12,
+      "postedAt": "2025-08-09T17:20:00Z"
+    },
+    {
+      "id": 7,
+      "userId": 103,
+      "content": "Late night debugging session 😅 #DevLife",
+      "image": "https://source.unsplash.com/400x300/?night",
+      "likes": 80,
+      "comments": 12,
+      "shares": 5,
+      "postedAt": "2025-08-08T01:15:00Z"
+    },
+    {
+      "id": 8,
+      "userId": 102,
+      "content": "New recipe 🍝 #Foodie",
+      "image": "https://source.unsplash.com/400x300/?food",
+      "likes": 450,
+      "comments": 70,
+      "shares": 25,
+      "postedAt": "2025-08-07T18:00:00Z"
+    }
+  ],
+  "notifications": [
+    { "id": 1, "userId": 101, "type": "like", "user": "Amit Verma", "message": "liked your post", "time": "2m ago" },
+    { "id": 2, "userId": 101, "type": "comment", "user": "Priya Sharma", "message": "commented: Great work!", "time": "15m ago" },
+    { "id": 3, "userId": 102, "type": "follow", "user": "Ravi Kumar", "message": "started following you", "time": "1h ago" },
+    { "id": 4, "userId": 103, "type": "mention", "user": "Hamid Saifi", "message": "mentioned you in a post", "time": "3h ago" },
+    { "id": 5, "userId": 102, "type": "share", "user": "Neha Gupta", "message": "shared your post", "time": "5h ago" }
+  ],
+  "messages": [
+    { "id": 1, "from": "John Doe", "to": 101, "text": "Hey, can you share the repo link?", "time": "10:30 AM" },
+    { "id": 2, "from": "Sarah Lee", "to": 101, "text": "Loved your recent post!", "time": "Yesterday" },
+    { "id": 3, "from": "Priya Sharma", "to": 103, "text": "Congrats on your project launch!", "time": "2d ago" },
+    { "id": 4, "from": "Ravi Kumar", "to": 102, "text": "Are you joining the meetup?", "time": "3d ago" }
+  ]
+}
